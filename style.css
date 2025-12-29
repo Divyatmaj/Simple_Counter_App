@@ -8,6 +8,10 @@ body{
     align-items: center;
 } 
 
+.fa-solid{
+    transition: transform 0.5s ease;
+}
+
 #options{
     display: flex;
     justify-content: space-evenly;
@@ -34,6 +38,7 @@ body{
     left: 8rem;
     top: 40rem;
     border: 2px solid white;
+    transition: transform 0.5s ease;
 }
 #counter{
     display: block;
@@ -57,5 +62,11 @@ body{
     border-radius: 50%;
     border: 2px solid white; 
     color: white;
+    transition: transform 0.5s ease;
+}
+
+
+#add:hover, #remove:hover, .fa-solid:hover{
+    transform: scale(1.5);
 }
 
